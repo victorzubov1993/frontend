@@ -1,0 +1,51 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font : bold 120% Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;
+	/*background: #FFE680;*/
+}
+
+.hr {
+	list-style: none;
+}
+.hr li {
+	display: inline;
+	margin-right: 15px;
+}
+
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+	padding-top: 100px;
+	position: relative;
+}
+.content {
+	padding: 0 20px;
+}
+.text {
+	text-align: justify;
+	display: block;
+}
+.right-sidebar {
+	float: right;
+	margin-right:0px;
+	width: 250px;
+	position: relative;
+	margin-top: -342px;
+
+}
