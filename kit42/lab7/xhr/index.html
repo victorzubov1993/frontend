@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>XHR</title>
+<meta charset="utf-8">
+<title>XMLHttpRequest :: Ajax</title>
+<script type="text/javascript" src="js/script.js"></script>
 </head>
+
 <body>
-  <form action="handler.php" method="post" id="my_form">
+<form action="handler.php" method="post" id="my_form">
   <label for="fio">Ф.И.О:</label>
     <input type="text" name="fio" id="fio"><br>
   <label for="mail">Email:</label>
@@ -21,5 +23,6 @@
     <input type="radio" name="get_mail" value="0" id="get_mail_1">Нет</label><br>
   <input type="submit" id="submit" value="Отправить">
 </form>
+<div id="output"></div>
 </body>
 </html>
